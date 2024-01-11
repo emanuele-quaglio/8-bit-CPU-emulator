@@ -2,5 +2,5 @@ from utils import *
 from CPU import *
 
 cpu = CPU()
-cpu.load("file2.txt")
+cpu.load("./Code_examples/fibonacci.txt")
 cpu.run()
